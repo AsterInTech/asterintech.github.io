@@ -2364,12 +2364,12 @@ input, select, textarea {
 	.circular-image {
     	width: 200px;
     	height: 200px;
+		overflow: hidden;
     	border: 1px solid lightgray;
     	border-radius: 50%;
    		display: flex;
-    	align-items: center;
     	justify-content: center;
-    	overflow: hidden;
+		align-items: center;
 	}
 		.circular-image img {
 			width: 100%;
