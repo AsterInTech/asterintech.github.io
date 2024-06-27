@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
+		background-color: #14183d;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(35deg, #82BBE9 20%, #14183d 80%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(35deg, #82BBE9 20%, #14183d 80%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(35deg, #82BBE9 20%, #14183d 80%);
@@ -3118,8 +3118,9 @@ input, select, textarea {
 				margin: 0 auto;
 				margin-bottom: 20px;
 				width: 100%;
-				max-width: 400px;
+				max-width: 350px;
 				height: auto;
+				max-height: 350px;
 			}
 
 				#header.alt .logo img {
