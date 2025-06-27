@@ -3782,27 +3782,6 @@ input, select, textarea {
 			}
 
 		}
-		/* 🎨 Custom Styling */
-	
-		@media (min-width: 768px) {
-			#docsbotai-root {
-			bottom: 100px !important;
-			right: 30px !important;
-			width: 450px !important;
-			height: 600px !important;
-			}
-		}
-
-		@media (max-width: 767px) {
-			#docsbotai-root {
-			bottom: 0 !important;
-			right: 0 !important;
-			width: 100% !important;
-			height: 100% !important;
-			border-radius: 0 !important;
-			}
-		}
-		
 
 /* Wrapper */
 

@@ -240,15 +240,16 @@
 
 			// 🔧 Initialize the chatbot
 			DocsBotAI.init({
-				id: "91x9ob3ktX0Xpb1XBgXf/w10alpYtidyfOJyXtwhB"
+			id: "91x9ob3ktX0Xpb1XBgXf/w10alpYtidyfOJyXtwhB"
 			}).then(() => {
-				// ✅ Auto-open the chatbot once loaded
-				setTimeout(() => {
-				const openBtn = document.querySelector("#docsbotai-root iframe");
-				if (openBtn) {
-					openBtn.contentWindow.postMessage({ type: "open" }, "*");
+			// Wait for the launcher button and click it
+			const tryClickLauncher = setInterval(() => {
+				const launcher = document.querySelector('button[class*="docsbotai"]');
+				if (launcher) {
+				launcher.click();         // 🔘 Simulate click to open chat
+				clearInterval(tryClickLauncher);
 				}
-				}, 1000); // delay ensures widget is fully ready
+			}, 500); // Try every 500ms until button appears
 			});
 			</script>
 	</body>
