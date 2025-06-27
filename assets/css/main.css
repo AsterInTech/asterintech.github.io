@@ -1838,7 +1838,7 @@ input, select, textarea {
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		border-radius: 8px;
 		border: 0;
 		cursor: pointer;
@@ -1933,7 +1933,9 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: rgba(255, 255, 255, 0.162);
+			transform: scale(1.15);
+			box-shadow: 0 0 12px rgba(35, 124, 178, 0.8)!important;
 		}
 
 		input[type="submit"]:active,
